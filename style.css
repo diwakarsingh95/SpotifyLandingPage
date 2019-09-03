@@ -1,6 +1,6 @@
 body {
 	background: #f7bc3e;
-	font-family: 'Circular',  sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar {
@@ -13,7 +13,7 @@ body {
 	padding: 0.6rem 0;
 }
 
-.navbar .navbar-brand span {
+.navbar .navbar-brand i, span {
 	vertical-align: middle;
 }
 
@@ -42,7 +42,7 @@ main {
 main h1 {
 	font-size: 80px;
 	font-weight: 700;
-	letter-spacing: -3pt;
+	letter-spacing: -2px;
 }
 
 main p {
@@ -106,10 +106,10 @@ footer ul li {
 }
 
 footer .social a {
+	font-size: 27.5px;
 	background: #222326;
 	width: 54px;
 	height: 54px;
-	padding: 0.8em 0;
 }
 
 footer .container .bottom a, li {
@@ -156,6 +156,6 @@ footer .bottom a:hover {
 	}
 
 	footer .bottom small {
-	font-size: 10px;
-}
+		font-size: 10px;
+	}
 }
